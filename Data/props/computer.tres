@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PropData" format=3]
+
+[ext_resource type="Script" path="res://Scripts/resources/prop_data.gd" id="1_data"]
+
+[resource]
+script = ExtResource("1_data")
+display_name = "Computadora"
+animation = &"use_computer"
+facing = &"nw"
+duration = 5.0
+accepts_items = false
+
+effects_on_finish = {
+"dinero": 25.0,
+"energia": -5.0,
+"estres": 4.0,
+"felicidad": 2.0
+}
